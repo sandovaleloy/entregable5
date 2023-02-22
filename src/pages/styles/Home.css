@@ -1,0 +1,80 @@
+.home__section {
+    text-align: center;
+    margin: 40px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.home__img {
+    margin: 0;
+}
+
+.home__title {
+    color: red;
+}
+
+.home__p {
+    color: #302F2F;
+}
+
+.home__form {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.home__input {
+    border: 0;
+    padding: 10px;
+    outline: 0px;
+    border-left: 1px solid #e9e5e5;
+    border-bottom: 1px solid #e9e5e5;
+    box-shadow: 0 1px 20px  rgba(0, 0, 0, 0.2);
+}
+
+::placeholder {
+    color: #D3D3D3;
+}
+
+.home__btn {
+    background-color: #D93F3F;
+    border: 0;
+    padding: 10px 25px;
+}
+
+.home__red {
+    height: 75px;
+    background-color: #DD1A1A;
+    position: relative;
+}
+
+.home__black {
+    height: 35px;
+    background-color: #0C0C0C;
+    position: relative;
+    display: flex;
+    place-content: center;
+}
+
+.home__pokeball {
+    position: absolute;
+    top: -60px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 10px solid #0C0C0C;
+    width: 90px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    
+}
+
+.home__pokeball::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-color: rgba(33, 33, 33, 1);
+    border: 10px solid #0C0C0C;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
