@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { logOut } from '../../store/slices/nameTrainer.slice'
 import "./styles/Header.css"

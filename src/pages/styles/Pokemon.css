@@ -84,7 +84,6 @@
 }
 
 .pokemon__container {
-    border: 1px solid red;
     gap: 20px;
     font-size: 45px;
 }
